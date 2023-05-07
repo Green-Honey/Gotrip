@@ -1,0 +1,197 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .about__img {
+        max-width: 445px;
+        width: 100%;
+    }
+
+    .about__text1, .about__text2 {
+        max-width: 445px;
+        width: 100%;
+    }
+
+    .about__title, .catalog__title {
+        margin-top: 50px;
+    }
+
+    .catalog {
+        margin: 0 150px;
+    }
+
+    .card__title {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .about {
+        justify-content: center;
+    }
+
+    .catalog {
+        margin: 0;
+    }
+
+    .catalog {
+        justify-content: space-evenly;
+    }
+
+    .contacts {
+        flex-wrap: nowrap;
+    }
+
+    .footer__content {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header_content {
+        min-height: 480px;
+    }
+
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__slogan {
+        font-size: 30px;
+    }
+
+    .about__title, .catalog__title {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+
+    .contacts__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .about__text1, .about__text2 {
+        font-size: 16px;
+    }
+
+    .catalog {
+        justify-content: space-between;
+    }
+
+    .card__img {
+        width: 230px;
+    }
+
+    .contacts__text, .contacts__tel, .contacts__email {
+        font-size: 18px;
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+    }
+
+    .contacts__text {
+        margin-bottom: 20px;
+    }
+
+    .contacts__email {
+        margin-bottom: 20px; 
+    }
+
+    .footer__content, .footermenu {
+        margin-bottom: 25px;
+    }
+
+    .footer__content {
+        justify-content: center;
+    }
+
+    footer {
+        padding-top: 25px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .footermenu__link {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav_content {
+        padding: 15px 15px;
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .menu {
+        justify-content: space-evenly;
+    }
+
+    .menu__link {
+        margin: 15px 5px;
+    }
+
+    .header__title {
+        font-size: 50px;
+    }
+
+    .header__slogan {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about__text1, .about__text2 {
+        text-align: center;
+    }
+
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__title {
+        text-align: center;
+    }
+
+    .contacts__text {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .contacts__email {
+        margin-bottom: 20px;
+    }
+
+    .footermenu {
+        align-items: center;
+    }
+
+    footer {
+        padding-top: 15px;
+    }
+
+    .footermenu__link {
+        padding: 10px 8px;
+    }
+}
+
+@media (max-width: 530px) {
+    .catalog {
+        display: block;
+    }
+}
+
